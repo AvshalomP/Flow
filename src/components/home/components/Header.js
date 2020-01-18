@@ -5,7 +5,7 @@ const Header = (props) => {
   return (
     <HeaderContainer>
       <HomeBtn>F_</HomeBtn>
-      <ThemeBtn>Tgl Theme</ThemeBtn>
+      <ThemeBtn />
     </HeaderContainer>
   );
 };

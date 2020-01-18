@@ -11,7 +11,7 @@ function App() {
   const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
   return (
-    <ThemeProvider theme={{obj, toggleTheme}}>
+    <ThemeProvider theme={{obj, currTheme: theme, toggleTheme}}>
       <>
         <GlobalStyles />
         <Routes />
